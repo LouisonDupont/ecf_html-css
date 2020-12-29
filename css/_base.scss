@@ -1,23 +1,18 @@
 html {
-  font-size: 0.625em;
-  /* fallback IE8+ */
-  font-size: calc(1em * .625);
-  /* IE9-IE11 math fixing. See http://bit.ly/1g4X0bX */
+    font-size: .625em; /* fallback IE8+ */
+    font-size: calc(1em * .625); /* IE9-IE11 math fixing. See http://bit.ly/1g4X0bX */
 }
-
 /* Box sizing rules */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
-
 /* Remove default padding */
 ul[class],
 ol[class] {
   padding: 0;
 }
-
 /* Remove default margin */
 body,
 h1,
@@ -35,37 +30,31 @@ dl,
 dd {
   margin: 0;
 }
-
 /* Set core body defaults */
 body {
+  
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
 }
-
 /* Remove list styles on ul, ol elements with a class attribute */
 ul[class],
 ol[class] {
   list-style: none;
 }
-
 /* A elements that don't have a class get default styles */
 a:not([class]) {
-  -webkit-text-decoration-skip: ink;
-          text-decoration-skip-ink: auto;
+  text-decoration-skip-ink: auto;
 }
-
 /* Make images easier to work with */
 img {
   max-width: 100%;
   display: block;
 }
-
 /* Natural flow and rhythm in articles by default */
 article > * + * {
   margin-top: 1em;
 }
-
 /* Inherit fonts for inputs and buttons */
 input,
 button,
@@ -73,12 +62,10 @@ textarea,
 select {
   font: inherit;
 }
-
 /* Remove font style on address */
 address {
   font-style: normal;
 }
-
 /* Remove all animations and transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   * {
@@ -92,8 +79,7 @@ address {
 .screen-reader-text {
   border: 0;
   clip: rect(1px, 1px, 1px, 1px);
-  -webkit-clip-path: inset(50%);
-          clip-path: inset(50%);
+  clip-path: inset(50%);
   height: 1px;
   margin: -1px;
   overflow: hidden;
@@ -102,12 +88,10 @@ address {
   width: 1px;
   word-wrap: normal !important;
 }
-
 .screen-reader-text:focus {
   background-color: #eee;
   clip: auto !important;
-  -webkit-clip-path: none;
-          clip-path: none;
+  clip-path: none;
   color: #444;
   display: block;
   font-size: 1em;
@@ -118,6 +102,5 @@ address {
   text-decoration: none;
   top: 5px;
   width: auto;
-  z-index: 100000;
-  /* Above WP toolbar. */
+  z-index: 100000; /* Above WP toolbar. */
 }
