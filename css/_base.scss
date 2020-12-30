@@ -118,3 +118,36 @@ h2{
 ul{
   padding: 0;
 }
+
+.is-active-page{
+  background-color: white;
+}
+
+.pagination{
+  margin-bottom: 5rem;
+  nav{
+    ul{
+      display: flex;
+      justify-content: center;
+      li{
+        list-style-type: none;
+        a{
+          margin: 0 .5rem;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 2rem;
+          font-weight: 400;
+          text-decoration: none;
+          color: var(--o);
+          border: 1px solid var(--o);
+          padding: .8rem 1.5rem;
+          border-radius: 10%;
+        }
+
+        a:hover{
+          background-color: var(--o);
+          color: white;
+        }
+      }
+    }
+  }
+}

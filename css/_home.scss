@@ -51,7 +51,7 @@ header{
 
 main{
     .hero{
-        background-image: url("/img/Photo-arriere-plan.png");
+        background-image: url(img/arriere-plan.png);
         background-repeat: no-repeat;
         background-size: cover;
         
@@ -109,6 +109,7 @@ main{
                 .card{
                     box-shadow: 0px 0px 48px #00000029;
                     border-radius: 4px;
+                    margin-bottom: 2rem;
 
                     img{
                         width: 100%;

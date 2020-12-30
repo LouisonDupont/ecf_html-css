@@ -138,6 +138,36 @@ ul {
   padding: 0;
 }
 
+.is-active-page {
+  background-color: white;
+}
+
+.pagination {
+  margin-bottom: 5rem;
+}
+.pagination nav ul {
+  display: flex;
+  justify-content: center;
+}
+.pagination nav ul li {
+  list-style-type: none;
+}
+.pagination nav ul li a {
+  margin: 0 0.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: var(--o);
+  border: 1px solid var(--o);
+  padding: 0.8rem 1.5rem;
+  border-radius: 10%;
+}
+.pagination nav ul li a:hover {
+  background-color: var(--o);
+  color: white;
+}
+
 :root {
   --o: #FD7E37;
   --b: #000000;
@@ -182,7 +212,7 @@ header .container .header_right_content nav ul li a:hover {
 }
 
 main .hero {
-  background-image: url("/img/Photo-arriere-plan.png");
+  background-image: url(img/arriere-plan.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -229,6 +259,7 @@ main .home_news .container .news_articles_container, main .home_news .container 
 main .home_news .container .news_articles_container .card, main .home_news .container .modules_content .card, main .home_modules .container .news_articles_container .card, main .home_modules .container .modules_content .card {
   box-shadow: 0px 0px 48px #00000029;
   border-radius: 4px;
+  margin-bottom: 2rem;
 }
 main .home_news .container .news_articles_container .card img, main .home_news .container .modules_content .card img, main .home_modules .container .news_articles_container .card img, main .home_modules .container .modules_content .card img {
   width: 100%;
@@ -364,4 +395,17 @@ footer .container .footer_content .footer_reseaux ul {
 footer .container .footer_content .footer_reseaux ul li {
   list-style-type: none;
   margin: 0 3rem;
+}
+.formation_intro {
+  padding: 5rem 0;
+}
+.formation_intro .container h2 {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.formation_intro .container .formation_text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 2.4rem;
+  padding: 0 21rem;
 }
