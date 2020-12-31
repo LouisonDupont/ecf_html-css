@@ -1,0 +1,13 @@
+.etudiants.students{
+
+    .students_content{
+        display: grid;
+        grid-template-columns: repeat( auto-fill, minmax(300px, 1fr) );
+    }
+    .students_card{
+        margin-bottom: 5rem;
+        a{
+            color: var(--o);
+        }
+    }
+}

@@ -9,7 +9,7 @@ include('header.php'); ?>
                 </div>
             </div>
         </section>
-        <section class="home_news">
+        <section class="news">
             <div class="container">
                 <h2>Les dernières actualités</h2>
                 <div class="news_articles_container">
@@ -43,7 +43,7 @@ include('header.php'); ?>
                 </div>
             </div>
         </section>
-        <section class="home_students">
+        <section class="home students">
             <div class="container">
                 <h2>Rencontrez les étudiants</h2>
                 <div class="students_content">
@@ -70,7 +70,7 @@ include('header.php'); ?>
                 </div>
             </div>
         </section>
-        <section class="home_modules">
+        <section class="modules">
             <div class="container">
                 <h2>Les modules de la formation</h2>
                 <div class="modules_content">

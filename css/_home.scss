@@ -93,7 +93,7 @@ main{
             }
     }
 
-    .home_news, .home_modules{
+    .news, .modules{
         .container{
 
             h2{
@@ -174,21 +174,17 @@ main{
         }
     }
 
-    .home_students{
-        background-color: var(--o);
+    .students{
         padding: 5rem 0;
 
         .container{
 
             h2{
-                color: white;
                 text-align: center;
             }
 
             .students_content{
                 margin-top: 5rem;
-                display: flex;
-                justify-content: space-around;
 
                 .students_card{
                     display: flex;
@@ -203,15 +199,36 @@ main{
                     .students_name{
                         font-family: 'Montserrat', sans-serif;
                         font-size: 2.4rem;
-                        color: white;
+                        font-weight: 600;
+                        margin: 2rem 0;
                     }
     
                     a{
-                        color: white;
                         font-family: 'Montserrat', sans-serif;
                         font-size: 1.6rem;
                     }
                 }
+            }
+        }
+    }
+
+    .home.students{
+        background-color: var(--o);
+
+        h2{
+            color: white;
+        }
+
+        .students_content{
+            display: flex;
+            justify-content: space-around;
+
+            .students_name{
+                color: white;
+            }
+    
+            a{
+                color: white;
             }
         }
     }

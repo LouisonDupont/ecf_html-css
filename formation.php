@@ -9,7 +9,7 @@ include('header.php'); ?>
         </div>
         </section>
 
-        <section class="home_modules">
+        <section class="modules">
             <div class="container">
                 <h2>Les modules de la formation</h2>
                 <div class="modules_content">

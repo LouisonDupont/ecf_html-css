@@ -247,57 +247,57 @@ main .hero .container .baseline a {
   font-size: 4rem;
   align-self: flex-end;
 }
-main .home_news .container h2, main .home_modules .container h2 {
+main .news .container h2, main .modules .container h2 {
   text-align: center;
   margin: 3rem 0;
 }
-main .home_news .container .news_articles_container, main .home_news .container .modules_content, main .home_modules .container .news_articles_container, main .home_modules .container .modules_content {
+main .news .container .news_articles_container, main .news .container .modules_content, main .modules .container .news_articles_container, main .modules .container .modules_content {
   display: grid;
   gap: 2rem;
   padding-bottom: 5rem;
 }
-main .home_news .container .news_articles_container .card, main .home_news .container .modules_content .card, main .home_modules .container .news_articles_container .card, main .home_modules .container .modules_content .card {
+main .news .container .news_articles_container .card, main .news .container .modules_content .card, main .modules .container .news_articles_container .card, main .modules .container .modules_content .card {
   box-shadow: 0px 0px 48px #00000029;
   border-radius: 4px;
   margin-bottom: 2rem;
 }
-main .home_news .container .news_articles_container .card img, main .home_news .container .modules_content .card img, main .home_modules .container .news_articles_container .card img, main .home_modules .container .modules_content .card img {
+main .news .container .news_articles_container .card img, main .news .container .modules_content .card img, main .modules .container .news_articles_container .card img, main .modules .container .modules_content .card img {
   width: 100%;
   margin-bottom: 2rem;
 }
-main .home_news .container .news_articles_container .card .card_content, main .home_news .container .modules_content .card .card_content, main .home_modules .container .news_articles_container .card .card_content, main .home_modules .container .modules_content .card .card_content {
+main .news .container .news_articles_container .card .card_content, main .news .container .modules_content .card .card_content, main .modules .container .news_articles_container .card .card_content, main .modules .container .modules_content .card .card_content {
   padding-left: 2rem;
 }
-main .home_news .container .news_articles_container .card .card_content .date, main .home_news .container .modules_content .card .card_content .date, main .home_modules .container .news_articles_container .card .card_content .date, main .home_modules .container .modules_content .card .card_content .date {
+main .news .container .news_articles_container .card .card_content .date, main .news .container .modules_content .card .card_content .date, main .modules .container .news_articles_container .card .card_content .date, main .modules .container .modules_content .card .card_content .date {
   font-family: "Montserrat", sans-serif;
   font-size: 1.6rem;
   font-weight: lighter;
   color: #663014;
   margin-bottom: 2rem;
 }
-main .home_news .container .news_articles_container .card .card_content .date::before, main .home_news .container .modules_content .card .card_content .date::before, main .home_modules .container .news_articles_container .card .card_content .date::before, main .home_modules .container .modules_content .card .card_content .date::before {
+main .news .container .news_articles_container .card .card_content .date::before, main .news .container .modules_content .card .card_content .date::before, main .modules .container .news_articles_container .card .card_content .date::before, main .modules .container .modules_content .card .card_content .date::before {
   content: url(img/Icone-date.svg);
   margin-right: 1rem;
 }
-main .home_news .container .news_articles_container .card .card_content .card_title, main .home_news .container .modules_content .card .card_content .card_title, main .home_modules .container .news_articles_container .card .card_content .card_title, main .home_modules .container .modules_content .card .card_content .card_title {
+main .news .container .news_articles_container .card .card_content .card_title, main .news .container .modules_content .card .card_content .card_title, main .modules .container .news_articles_container .card .card_content .card_title, main .modules .container .modules_content .card .card_content .card_title {
   font-family: "Raleway", sans-serif;
   font-size: 2.4rem;
   font-weight: 600;
   margin-bottom: 2rem;
 }
-main .home_news .container .news_articles_container .card .card_content .card_text, main .home_news .container .modules_content .card .card_content .card_text, main .home_modules .container .news_articles_container .card .card_content .card_text, main .home_modules .container .modules_content .card .card_content .card_text {
+main .news .container .news_articles_container .card .card_content .card_text, main .news .container .modules_content .card .card_content .card_text, main .modules .container .news_articles_container .card .card_content .card_text, main .modules .container .modules_content .card .card_content .card_text {
   font-family: "Montserrat", sans-serif;
   font-size: 2rem;
   font-weight: 400;
   margin-bottom: 2rem;
 }
-main .home_news .container .news_articles_container .card .card_link, main .home_news .container .modules_content .card .card_link, main .home_modules .container .news_articles_container .card .card_link, main .home_modules .container .modules_content .card .card_link {
+main .news .container .news_articles_container .card .card_link, main .news .container .modules_content .card .card_link, main .modules .container .news_articles_container .card .card_link, main .modules .container .modules_content .card .card_link {
   background-color: var(--o);
   display: flex;
   justify-content: center;
   align-items: center;
 }
-main .home_news .container .news_articles_container .card .card_link a, main .home_news .container .modules_content .card .card_link a, main .home_modules .container .news_articles_container .card .card_link a, main .home_modules .container .modules_content .card .card_link a {
+main .news .container .news_articles_container .card .card_link a, main .news .container .modules_content .card .card_link a, main .modules .container .news_articles_container .card .card_link a, main .modules .container .modules_content .card .card_link a {
   font-family: "Montserrat", sans-serif;
   font-size: 2.4rem;
   text-decoration: none;
@@ -306,43 +306,55 @@ main .home_news .container .news_articles_container .card .card_link a, main .ho
   position: relative;
   margin-left: -20px;
 }
-main .home_news .container .news_articles_container .card .card_link a::after, main .home_news .container .modules_content .card .card_link a::after, main .home_modules .container .news_articles_container .card .card_link a::after, main .home_modules .container .modules_content .card .card_link a::after {
+main .news .container .news_articles_container .card .card_link a::after, main .news .container .modules_content .card .card_link a::after, main .modules .container .news_articles_container .card .card_link a::after, main .modules .container .modules_content .card .card_link a::after {
   content: url(img/Icon-feather-arrow-right-circle.svg);
   margin-left: 1rem;
   position: absolute;
   top: 13px;
 }
-main .home_students {
-  background-color: var(--o);
+main .students {
   padding: 5rem 0;
 }
-main .home_students .container h2 {
-  color: white;
+main .students .container h2 {
   text-align: center;
 }
-main .home_students .container .students_content {
+main .students .container .students_content {
   margin-top: 5rem;
-  display: flex;
-  justify-content: space-around;
 }
-main .home_students .container .students_content .students_card {
+main .students .container .students_content .students_card {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-main .home_students .container .students_content .students_card img {
+main .students .container .students_content .students_card img {
   border-radius: 50rem;
 }
-main .home_students .container .students_content .students_card .students_name {
+main .students .container .students_content .students_card .students_name {
   font-family: "Montserrat", sans-serif;
   font-size: 2.4rem;
-  color: white;
+  font-weight: 600;
+  margin: 2rem 0;
 }
-main .home_students .container .students_content .students_card a {
-  color: white;
+main .students .container .students_content .students_card a {
   font-family: "Montserrat", sans-serif;
   font-size: 1.6rem;
+}
+main .home.students {
+  background-color: var(--o);
+}
+main .home.students h2 {
+  color: white;
+}
+main .home.students .students_content {
+  display: flex;
+  justify-content: space-around;
+}
+main .home.students .students_content .students_name {
+  color: white;
+}
+main .home.students .students_content a {
+  color: white;
 }
 
 .news_articles_container {
@@ -408,4 +420,15 @@ footer .container .footer_content .footer_reseaux ul li {
   font-weight: 500;
   font-size: 2.4rem;
   padding: 0 21rem;
+}
+
+.etudiants.students .students_content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.etudiants.students .students_card {
+  margin-bottom: 5rem;
+}
+.etudiants.students .students_card a {
+  color: var(--o);
 }

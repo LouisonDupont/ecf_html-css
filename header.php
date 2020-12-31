@@ -24,7 +24,7 @@
                         } ?>"><a href="formation.php">La Formation</a></li>
                         <li class="<?php if ( $page && $page==='etudiants'){
                             echo 'is-active-page';
-                        } ?>"><a href="#">Les étudiants</a></li>
+                        } ?>"><a href="etudiants.php">Les étudiants</a></li>
                         <li class="<?php if ( $page && $page==='actualites'){
                             echo 'is-active-page';
                         } ?>"><a href="#">Actualités</a></li>
