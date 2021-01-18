@@ -27,10 +27,10 @@
                         } ?>"><a href="etudiants.php">Les étudiants</a></li>
                         <li class="<?php if ( $page && $page==='actualites'){
                             echo 'is-active-page';
-                        } ?>"><a href="#">Actualités</a></li>
+                        } ?>"><a href="actualites.php">Actualités</a></li>
                         <li class="<?php if ( $page && $page==='contact'){
                             echo 'is-active-page';
-                        } ?>"><a href="#">Nous contacter</a></li>
+                        } ?>"><a href="contact.php">Nous contacter</a></li>
                     </ul>
                 </nav>
             </div>

@@ -1,5 +1,5 @@
 
-<?php $page = 'formation';
+<?php $page = 'etudiants';
 include('header.php'); ?>
     <main>
     <section class="etudiants students">

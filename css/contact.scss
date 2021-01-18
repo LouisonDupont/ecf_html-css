@@ -1,0 +1,73 @@
+.contact{
+    min-height: 70vh;
+    padding: 5rem 0;
+    .container{
+        h2{
+            text-align: center;
+        }
+        form{
+            padding: 15rem 0;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2rem;
+            .form_container{
+                
+                
+                .form_first{
+                    display:flex;
+                    margin-bottom: 4rem;
+                    flex-wrap: wrap;
+                    .champ{
+                        width: 50%;
+                        margin-right: 2rem;
+                        border-bottom: 1px solid black;
+                        padding-bottom: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.champ{
+    display: flex;
+    flex-direction: column;
+
+    input, textarea{
+        border: none;
+        font-style: italic;
+        margin-top: 2rem;
+    }
+    text-area{
+        border-bottom: 1px solid bla;
+    }
+
+    .submit{
+        background-color: var(--o);
+        color: white;
+        width: 250px;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+
+    .submit:after{
+        content: url(img/Icon-feather-arrow-right-circle.svg);
+        margin-left: 1rem;
+        position: absolute;
+        top: 13px;
+    }
+}
+
+.btn_submit{
+    justify-content: flex-end!important;
+}
+
+
+@media (min-width: 725px) and (max-width: 914.99px) {
+    .form_first{
+        display: block;
+    }
+}
+
+@media (max-width: 724.99px) {
+    
+}
