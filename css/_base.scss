@@ -118,11 +118,6 @@ h2{
 ul{
   padding: 0;
 }
-
-.is-active-page{
-  background-color: white;
-}
-
 .pagination{
   margin-bottom: 5rem;
   nav{
@@ -149,5 +144,17 @@ ul{
         }
       }
     }
+  }
+}
+
+@media (min-width: 725px) and (max-width: 914.99px) {
+  h2{
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 724.99px) {
+  h2{
+    font-size: 3.3rem;
   }
 }

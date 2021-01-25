@@ -15,3 +15,23 @@
         }
     }
 }
+
+@media (min-width: 725px) and (max-width: 914.99px) {
+    .formation_intro{
+        .container{
+            .formation_text{
+                padding: 0 5rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 724.99px) {
+    .formation_intro{
+        .container{
+            .formation_text{
+                padding: 0 5rem;
+            }
+        }
+    }
+}

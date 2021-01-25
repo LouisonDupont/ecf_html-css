@@ -24,7 +24,7 @@ include('header.php'); ?>
                                 </div>
                          
                         </div>
-                        <div class="champ btn_submit">
+                        <div class="btn_submit">
                                 <input type="submit" value="Envoyer" class="submit">
                         </div>    
                     </form>

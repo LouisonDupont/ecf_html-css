@@ -1,0 +1,122 @@
+.contact{
+    min-height: 70vh;
+    padding: 5rem 0;
+    .container{
+        h2{
+            text-align: center;
+        }
+        form{
+            padding: 15rem 0;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2rem;
+            .form_container{
+                padding: 0 2rem;
+                .form_first{
+                    display:grid;
+                    margin-bottom: 4rem;
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-gap: 10px;
+
+                    .champ{
+                        margin-right: 2rem;
+                        border-bottom: 1px solid black;
+                        padding-bottom: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.champ{
+    display: flex;
+    flex-direction: column;
+
+    input, textarea{
+        border: none;
+        font-style: italic;
+        margin-top: 2rem;
+    }
+    text-area{
+        border-bottom: 1px solid bla;
+    }
+}
+
+.submit{
+    
+    background-color: var(--o);
+    color: white;
+    width: 200px;
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.submit:after{
+    content: url(img/Icon-feather-arrow-right-circle.svg);
+    margin-left: 1rem;
+    position: absolute;
+    top: 13px;
+}
+
+.btn_submit{
+    display: flex;
+    justify-content: flex-end!important;
+    margin-top: 5rem;
+}
+
+
+@media (min-width: 725px) and (max-width: 914.99px) {
+
+    .contact{
+        .container{
+            h2{
+                font-size: 3rem;
+            }
+            form{
+                .form_container{
+                    padding: 0 5rem;
+                    .form_first{
+                        display: flex;
+                        flex-direction: column;
+                        .champ{
+                            margin: 0.5rem 0;
+                        }
+                    }
+                }
+
+                .btn_submit{
+                    justify-content: flex-start!important;
+                    margin: 0 2rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 724.99px) {
+    .contact{
+        .container{
+            h2{
+                font-size: 3.5rem;
+            }
+            form{
+                .form_container{
+                    padding: 0 3rem;
+                    .form_first{
+                        display: flex;
+                        flex-direction: column;
+                        .champ{
+                            margin: 0.5rem 0;
+                        }
+                    }
+                }
+
+                .btn_submit{
+                    justify-content: flex-start!important;
+                    margin: 0 2rem;
+                }
+            }
+        }
+    }
+}

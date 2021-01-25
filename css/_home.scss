@@ -43,6 +43,14 @@ header{
                             color: var(--o);
                         }
                     }
+
+                    .is-active-page{
+                        background-color: white;
+                    }
+                      
+                    .is-active-page a:active{
+                        color: var(--o)!important;
+                    }
                 }
             }
         }
@@ -191,6 +199,7 @@ main{
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
+                    margin-bottom: 3rem;
 
                     img{
                         border-radius: 50rem;
@@ -220,8 +229,8 @@ main{
         }
 
         .students_content{
-            display: flex;
-            justify-content: space-around;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 
             .students_name{
                 color: white;
@@ -300,6 +309,55 @@ footer{
                     }
                 }
             }
+        }
+    }
+}
+
+@media (min-width: 725px) and (max-width: 914.99px) {
+    main{
+        .hero{
+            .container{
+                .baseline{
+                    h1{
+                        font-size: 4rem;
+                    }
+                    a{
+                        font-size: 2.5rem;
+                        align-self: flex-start;
+                    }
+                }
+            }
+        }
+        
+        .news{
+            .container{
+                h2{
+
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 724.99px) {
+    main{
+        .hero{
+            .container{
+                .baseline{
+                    margin: 5rem 0;
+                    h1{
+                        font-size: 4rem;
+                    }
+                    a{
+                        font-size: 1.8rem;
+                        align-self: flex-start;
+                    }
+                }
+            }
+        }
+
+        .news{
+
         }
     }
 }
