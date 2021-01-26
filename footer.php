@@ -30,5 +30,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="js/burger.js"></script>
 </body>
 </html>

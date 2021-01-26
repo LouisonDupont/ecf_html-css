@@ -14,7 +14,8 @@
                 <p class="logo_site">DWWM</p>
             </div>
             <div class="header_right_content">
-                <nav>
+                <button class="ham"></button>
+                <nav class="navbar">
                     <ul>
                         <li class="<?php if ( $page && $page==='accueil'){
                             echo 'is-active-page';
